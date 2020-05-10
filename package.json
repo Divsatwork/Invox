@@ -1,0 +1,29 @@
+{
+  "name": "invox",
+  "version": "1.0.0",
+  "description": "GST Biller and invoicer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divsatwork/Invox.git"
+  },
+  "keywords": [
+    "gst",
+    "billing",
+    "invoice",
+    "tax",
+    "rate",
+    "nodejs",
+    "mongo",
+    "bills"
+  ],
+  "author": "Dc and Ak-M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Divsatwork/Invox/issues"
+  },
+  "homepage": "https://github.com/Divsatwork/Invox#readme"
+}

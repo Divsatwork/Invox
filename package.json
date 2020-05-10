@@ -25,5 +25,20 @@
   "bugs": {
     "url": "https://github.com/Divsatwork/Invox/issues"
   },
-  "homepage": "https://github.com/Divsatwork/Invox#readme"
+  "homepage": "https://github.com/Divsatwork/Invox#readme",
+  "dependencies": {
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-validator": "*",
+    "http-errors": "~1.6.2",
+    "jade": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "morgan": "~1.9.0",
+    "nodejs": "*",
+    "nodemailer": "*",
+    "uuid": "^3.2.1"
+  }
 }

@@ -1,0 +1,298 @@
+doctype html
+html(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='icon', href='images/favicon.ico', type='image/ico')
+    title #{title}
+    link(href='vendors/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='vendors/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    link(href='vendors/nprogress/nprogress.css', rel='stylesheet')
+    link(href='vendors/iCheck/skins/flat/green.css', rel='stylesheet')
+    link(href='vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css', rel='stylesheet')
+    link(href='vendors/jqvmap/dist/jqvmap.min.css', rel='stylesheet')
+    link(href='vendors/bootstrap-daterangepicker/daterangepicker.css', rel='stylesheet')
+    link(href='css/custom.min.css', rel='stylesheet')
+  body.nav-md
+    .container.body
+      .main_container
+        .col-md-3.left_col
+          .left_col.scroll-view
+            .navbar.nav_title(style='border: 0;')
+              a.site_title(href='index.html')
+                i.fa.fa-paw
+                span Gentelella Alela!
+            .clearfix
+            .profile.clearfix
+              .profile_pic
+                img.img-circle.profile_img(src='images/img.jpg', alt='...')
+              .profile_info
+                span Welcome,
+                h2 John Doe
+            br
+            #sidebar-menu.main_menu_side.hidden-print.main_menu
+              .menu_section
+                h3 General
+                ul.nav.side-menu
+                  li
+                    a
+                      i.fa.fa-home
+                      |  Products 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='index.html') Add
+                      li
+                        a(href='index2.html') View
+                      li
+                        a(href='index3.html') Edit
+                  li
+                    a
+                      i.fa.fa-edit
+                      |  Forms 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='form.html') General Form
+                      li
+                        a(href='form_advanced.html') Advanced Components
+                      li
+                        a(href='form_validation.html') Form Validation
+                      li
+                        a(href='form_wizards.html') Form Wizard
+                      li
+                        a(href='form_upload.html') Form Upload
+                      li
+                        a(href='form_buttons.html') Form Buttons
+                  li
+                    a
+                      i.fa.fa-desktop
+                      |  UI Elements 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='general_elements.html') General Elements
+                      li
+                        a(href='media_gallery.html') Media Gallery
+                      li
+                        a(href='typography.html') Typography
+                      li
+                        a(href='icons.html') Icons
+                      li
+                        a(href='glyphicons.html') Glyphicons
+                      li
+                        a(href='widgets.html') Widgets
+                      li
+                        a(href='invoice.html') Invoice
+                      li
+                        a(href='inbox.html') Inbox
+                      li
+                        a(href='calendar.html') Calendar
+                  li
+                    a
+                      i.fa.fa-table
+                      |  Tables 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='tables.html') Tables
+                      li
+                        a(href='tables_dynamic.html') Table Dynamic
+                  li
+                    a
+                      i.fa.fa-bar-chart-o
+                      |  Data Presentation 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='chartjs.html') Chart JS
+                      li
+                        a(href='chartjs2.html') Chart JS2
+                      li
+                        a(href='morisjs.html') Moris JS
+                      li
+                        a(href='echarts.html') ECharts
+                      li
+                        a(href='other_charts.html') Other Charts
+                  li
+                    a
+                      i.fa.fa-clone
+                      | Layouts 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='fixed_sidebar.html') Fixed Sidebar
+                      li
+                        a(href='fixed_footer.html') Fixed Footer
+              .menu_section
+                h3 Live On
+                ul.nav.side-menu
+                  li
+                    a
+                      i.fa.fa-bug
+                      |  Additional Pages 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='e_commerce.html') E-commerce
+                      li
+                        a(href='projects.html') Projects
+                      li
+                        a(href='project_detail.html') Project Detail
+                      li
+                        a(href='contacts.html') Contacts
+                      li
+                        a(href='profile.html') Profile
+                  li
+                    a
+                      i.fa.fa-windows
+                      |  Extras 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='page_403.html') 403 Error
+                      li
+                        a(href='page_404.html') 404 Error
+                      li
+                        a(href='page_500.html') 500 Error
+                      li
+                        a(href='plain_page.html') Plain Page
+                      li
+                        a(href='login.html') Login Page
+                      li
+                        a(href='pricing_tables.html') Pricing Tables
+                  li
+                    a
+                      i.fa.fa-sitemap
+                      |  Multilevel Menu 
+                      span.fa.fa-chevron-down
+                    ul.nav.child_menu
+                      li
+                        a(href='#level1_1') Level One
+                      li
+                        a
+                          | Level One
+                          span.fa.fa-chevron-down
+                        ul.nav.child_menu
+                          li.sub_menu
+                            a(href='level2.html') Level Two
+                          li
+                            a(href='#level2_1') Level Two
+                          li
+                            a(href='#level2_2') Level Two
+                      li
+                        a(href='#level1_2') Level One
+                  li
+                    a(href='javascript:void(0)')
+                      i.fa.fa-laptop
+                      |  Landing Page 
+                      span.label.label-success.pull-right Coming Soon
+            .sidebar-footer.hidden-small
+              a(data-toggle='tooltip', data-placement='top', title='Settings')
+                span.glyphicon.glyphicon-cog(aria-hidden='true')
+              a(data-toggle='tooltip', data-placement='top', title='FullScreen')
+                span.glyphicon.glyphicon-fullscreen(aria-hidden='true')
+              a(data-toggle='tooltip', data-placement='top', title='Lock')
+                span.glyphicon.glyphicon-eye-close(aria-hidden='true')
+              a(data-toggle='tooltip', data-placement='top', title='Logout', href='login.html')
+                span.glyphicon.glyphicon-off(aria-hidden='true')
+        .top_nav
+          .nav_menu
+            .nav.toggle
+              a#menu_toggle
+                i.fa.fa-bars
+            nav.nav.navbar-nav
+              ul.navbar-right
+                li.nav-item.dropdown.open(style='padding-left: 15px;')
+                  a#navbarDropdown.user-profile.dropdown-toggle(href='javascript:;', aria-haspopup='true', data-toggle='dropdown', aria-expanded='false')
+                    img(src='images/img.jpg', alt='')
+                    | John Doe
+                  .dropdown-menu.dropdown-usermenu.pull-right(aria-labelledby='navbarDropdown')
+                    a.dropdown-item(href='javascript:;')  Profile
+                    a.dropdown-item(href='javascript:;')
+                      span.badge.bg-red.pull-right 50%
+                      span Settings
+                    a.dropdown-item(href='javascript:;') Help
+                    a.dropdown-item(href='login.html')
+                      i.fa.fa-sign-out.pull-right
+                      |  Log Out
+                li.nav-item.dropdown.open(role='presentation')
+                  a#navbarDropdown1.dropdown-toggle.info-number(href='javascript:;', data-toggle='dropdown', aria-expanded='false')
+                    i.fa.fa-envelope-o
+                    span.badge.bg-green 6
+                  ul.dropdown-menu.list-unstyled.msg_list(role='menu', aria-labelledby='navbarDropdown1')
+                    li.nav-item
+                      a.dropdown-item
+                        span.image
+                          img(src='images/img.jpg', alt='Profile Image')
+                        span
+                          span John Smith
+                          span.time 3 mins ago
+                        span.message
+                          | Film festivals used to be do-or-die moments for movie makers. They were where...
+                    li.nav-item
+                      a.dropdown-item
+                        span.image
+                          img(src='images/img.jpg', alt='Profile Image')
+                        span
+                          span John Smith
+                          span.time 3 mins ago
+                        span.message
+                          | Film festivals used to be do-or-die moments for movie makers. They were where...
+                    li.nav-item
+                      a.dropdown-item
+                        span.image
+                          img(src='images/img.jpg', alt='Profile Image')
+                        span
+                          span John Smith
+                          span.time 3 mins ago
+                        span.message
+                          | Film festivals used to be do-or-die moments for movie makers. They were where...
+                    li.nav-item
+                      a.dropdown-item
+                        span.image
+                          img(src='images/img.jpg', alt='Profile Image')
+                        span
+                          span John Smith
+                          span.time 3 mins ago
+                        span.message
+                          | Film festivals used to be do-or-die moments for movie makers. They were where...
+                    li.nav-item
+                      .text-center
+                        a.dropdown-item
+                          strong See All Alerts
+                          i.fa.fa-angle-right
+        .right_col(role='main')
+          block content
+        footer
+          .pull-right
+            | Gentelella - Bootstrap Admin Template by 
+            a(href='https://colorlib.com') Colorlib
+          .clearfix
+    script(src='vendors/jquery/dist/jquery.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/bootstrap/dist/js/bootstrap.bundle.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/fastclick/lib/fastclick.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/nprogress/nprogress.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/Chart.js/dist/Chart.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/gauge.js/dist/gauge.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/bootstrap-progressbar/bootstrap-progressbar.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/iCheck/icheck.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/skycons/skycons.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/Flot/jquery.flot.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/Flot/jquery.flot.pie.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/Flot/jquery.flot.time.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/Flot/jquery.flot.stack.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/Flot/jquery.flot.resize.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/flot.orderbars/js/jquery.flot.orderBars.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/flot-spline/js/jquery.flot.spline.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/flot.curvedlines/curvedLines.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/DateJS/build/date.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/jqvmap/dist/jquery.vmap.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/jqvmap/dist/maps/jquery.vmap.world.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/jqvmap/examples/js/jquery.vmap.sampledata.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/moment/min/moment.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='vendors/bootstrap-daterangepicker/daterangepicker.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='js/custom.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js', data-cf-settings='7b85e4d345b0cd479f3da399-|49', defer='')

@@ -7,21 +7,21 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='icon', href='images/favicon.ico', type='image/ico')
     title #{title}
-    link(href='vendors/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
-    link(href='vendors/font-awesome/css/font-awesome.min.css', rel='stylesheet')
-    link(href='vendors/nprogress/nprogress.css', rel='stylesheet')
-    link(href='vendors/iCheck/skins/flat/green.css', rel='stylesheet')
-    link(href='vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css', rel='stylesheet')
-    link(href='vendors/jqvmap/dist/jqvmap.min.css', rel='stylesheet')
-    link(href='vendors/bootstrap-daterangepicker/daterangepicker.css', rel='stylesheet')
-    link(href='css/custom.min.css', rel='stylesheet')
+    link(href='/vendors/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/vendors/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    link(href='/vendors/nprogress/nprogress.css', rel='stylesheet')
+    link(href='/vendors/iCheck/skins/flat/green.css', rel='stylesheet')
+    link(href='/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css', rel='stylesheet')
+    link(href='/vendors/jqvmap/dist/jqvmap.min.css', rel='stylesheet')
+    link(href='/vendors/bootstrap-daterangepicker/daterangepicker.css', rel='stylesheet')
+    link(href='/css/custom.min.css', rel='stylesheet')
   body.nav-md
     .container.body
       .main_container
         .col-md-3.left_col
           .left_col.scroll-view
             .navbar.nav_title(style='border: 0;')
-              a.site_title(href='index.html')
+              a.site_title(href='/')
                 i.fa.fa-paw
                 span Gentelella Alela!
             .clearfix
@@ -43,11 +43,11 @@ html(lang='en')
                       span.fa.fa-chevron-down
                     ul.nav.child_menu
                       li
-                        a(href='index.html') Add
+                        a(href='/product/add') Add
                       li
-                        a(href='index2.html') View
+                        a(href='/product/all') View
                       li
-                        a(href='index3.html') Edit
+                        a(href='/product/edit') Edit
                   li
                     a
                       i.fa.fa-edit
@@ -271,28 +271,28 @@ html(lang='en')
             | Gentelella - Bootstrap Admin Template by 
             a(href='https://colorlib.com') Colorlib
           .clearfix
-    script(src='vendors/jquery/dist/jquery.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/bootstrap/dist/js/bootstrap.bundle.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/fastclick/lib/fastclick.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/nprogress/nprogress.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/Chart.js/dist/Chart.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/gauge.js/dist/gauge.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/bootstrap-progressbar/bootstrap-progressbar.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/iCheck/icheck.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/skycons/skycons.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/Flot/jquery.flot.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/Flot/jquery.flot.pie.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/Flot/jquery.flot.time.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/Flot/jquery.flot.stack.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/Flot/jquery.flot.resize.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/flot.orderbars/js/jquery.flot.orderBars.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/flot-spline/js/jquery.flot.spline.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/flot.curvedlines/curvedLines.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/DateJS/build/date.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/jqvmap/dist/jquery.vmap.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/jqvmap/dist/maps/jquery.vmap.world.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/jqvmap/examples/js/jquery.vmap.sampledata.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/moment/min/moment.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='vendors/bootstrap-daterangepicker/daterangepicker.js', type='7b85e4d345b0cd479f3da399-text/javascript')
-    script(src='js/custom.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/jquery/dist/jquery.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/bootstrap/dist/js/bootstrap.bundle.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/fastclick/lib/fastclick.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/nprogress/nprogress.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/Chart.js/dist/Chart.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/gauge.js/dist/gauge.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/iCheck/icheck.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/skycons/skycons.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/Flot/jquery.flot.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/Flot/jquery.flot.pie.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/Flot/jquery.flot.time.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/Flot/jquery.flot.stack.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/Flot/jquery.flot.resize.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/flot.orderbars/js/jquery.flot.orderBars.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/flot-spline/js/jquery.flot.spline.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/flot.curvedlines/curvedLines.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/DateJS/build/date.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/jqvmap/dist/jquery.vmap.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/jqvmap/dist/maps/jquery.vmap.world.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/moment/min/moment.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/vendors/bootstrap-daterangepicker/daterangepicker.js', type='7b85e4d345b0cd479f3da399-text/javascript')
+    script(src='/js/custom.min.js', type='7b85e4d345b0cd479f3da399-text/javascript')
     script(src='https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js', data-cf-settings='7b85e4d345b0cd479f3da399-|49', defer='')
